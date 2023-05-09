@@ -20,7 +20,6 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    left: 120px;
     animation: pipe-animation 1.5s infinite linear;
 }
 
@@ -40,7 +39,7 @@
     animation: clouds-animations 20s infinite linear;
 }
 
-@keyframes pipe-animations {
+@keyframes pipe-animation {
 from {
     right: -80px;
 }
